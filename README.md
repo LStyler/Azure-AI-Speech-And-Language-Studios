@@ -16,13 +16,15 @@
         The Royal Hotel, London, United Kingdom
         5/6/2018
         This is an old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk."
-
+<em>['Text box'](/imagens/LanguageStudioTextBox.png)</em>
+<em>['Análise'](/imagens/LanguageStudioAnalise.png)</em>
 
 ## 5. **Criar um recurso de Speech no Azure AI Speech Studio**
     Em outra aba do navegador, abri o Azure AI Speech Studio e faria login com minha conta Microsoft. Selecionaria "Configurações" e depois "Criar um recurso". Configuraria com as seguintes configurações: Nome do novo recurso: Inseriria um nome único. Assinatura: Minha assinatura do Azure. Região: Selecionaria uma região suportada. Nível de preço: Free FO (se disponível, caso contrário selecionaria Standard S0). Grupo de recursos: Selecionaria ou criaria um grupo de recursos com um nome único. Selecionaria "Criar recurso". Aguardaria até que o recurso fosse criado e então selecionaria "Usar recurso"⁴.
 
 ## 6. **Explorar a transcrição de fala em texto no Speech Studio**
     Na página "Comece com Speech", em "Fala para texto", encontraria "Transcrição de fala em tempo real". Selecionaria "Experimentar Transcrição de fala em tempo real". Em "Escolher arquivos de áudio", selecionaria "Procurar arquivos" e navegaria até a pasta onde salvei o arquivo. Selecionaria "WhatAICanDo.m4a" ou um áudio de sua autoria e depois "Abrir". O serviço de Speech transcreveria e exibiria o texto em tempo real.
+<em>['Speech studio'](/imagens/speechStudio.png)</em>
 
 ### Documentação:
     Language Studio: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html
